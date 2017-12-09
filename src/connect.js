@@ -23,7 +23,7 @@ class LineConnect extends LineAPI {
         console.info(`[*] mid: ${mid}\n`);
         console.info(`[*] Name: ${displayName}\n`);
         console.info(`NOTE: Dont forget , put your mid and admin on variable 'myBot' in main.js \n`);
-        console.info(`Credit By@ Nadyatjia and thx for TCR Team \n`);
+        console.info(`Credit By@ AntonLow and thx for TCR Team \n`);
         console.info(`=======BOT RUNNING======\n`);
         await this._tokenLogin(this.authToken, this.certificate);
         resolve();
