@@ -62,7 +62,7 @@ class Command extends LineAPI {
             this._sendMessage(this.messages,`Status: \n${JSON.stringify(this.stateStatus)}`);
         } else {
             this._sendMessage(this.messages,`Kamu Bukan Admin, Mau Jadi Admin? PM Admin`);
-            this._sendMessage(this.messages,`Ketik Keyword Ini Untuk Melihat Admin : Admin1                      Admin2                      Admin3                      Admin4                      Admin5                      Admin6                      Admin7                      Admin8                      Admin9                      Admin10                     Admin11                     Admin12                     Admin13                     Admin14                     Admin15`);
+            this._sendMessage(this.messages,`Ketik Keyword Ini Untuk Melihat : Creator                      Admin                      Moderator                      `);
         }
         Object.assign(this.messages,msg);
         this._sendMessage(this.messages);
@@ -245,7 +245,7 @@ class Command extends LineAPI {
     }
 
     list() {
-            this._sendMessage(this.messages,`Ketik Keyword Ini Untuk Melihat Admin : Admin1                      Admin2                      Admin3                      Admin4                      Admin5                      Admin6                      Admin7                      Admin8                      Admin9                      Admin10                     Admin11                     Admin12                     Admin13                     Admin14                     Admin15`);
+            this._sendMessage(this.messages,`Ketik Keyword Ini Untuk Melihat : Creator                      Admin                      Moderator                      `);
      }
 
 creator() {
@@ -260,7 +260,7 @@ creator() {
         this._sendMessage(this.messages);
  }
 
-admin1() {
+admin() {
         let msg = {
             text:null,
             contentType: 13,
@@ -272,7 +272,7 @@ admin1() {
         this._sendMessage(this.messages);
  }
 
-admin2() {
+moderator() {
         let msg = {
             text:null,
             contentType: 13,
@@ -282,168 +282,6 @@ admin2() {
         }
         Object.assign(this.messages,msg);
         this._sendMessage(this.messages);
- }
-
-admin3() {
-        let msg = {
-            text:null,
-            contentType: 13,
-            contentPreview: null,
-            contentMetadata: 
-            { mid: 'u813e54635fa8ca8c016090e933582652' }
-        }
-        Object.assign(this.messages,msg);
-        this._sendMessage(this.messages);
- }
-
-admin4() {
-        let msg = {
-            text:null,
-            contentType: 13,
-            contentPreview: null,
-            contentMetadata: 
-            { mid: 'u813e54635fa8ca8c016090e933582652' }
-        }
-        Object.assign(this.messages,msg);
-        this._sendMessage(this.messages);
- }
-
-admin5() {
-        let msg = {
-            text:null,
-            contentType: 13,
-            contentPreview: null,
-            contentMetadata: 
-            { mid: 'u813e54635fa8ca8c016090e933582652' }
-        }
-        Object.assign(this.messages,msg);
-        this._sendMessage(this.messages);
- }
-
-admin6() {
-        let msg = {
-            text:null,
-            contentType: 13,
-            contentPreview: null,
-            contentMetadata: 
-            { mid: 'u813e54635fa8ca8c016090e933582652' }
-        }
-        Object.assign(this.messages,msg);
-        this._sendMessage(this.messages);
- }
-
-admin7() {
-        let msg = {
-            text:null,
-            contentType: 13,
-            contentPreview: null,
-            contentMetadata: 
-            { mid: 'u813e54635fa8ca8c016090e933582652' }
-        }
-        Object.assign(this.messages,msg);
-        this._sendMessage(this.messages);
- }
-
-admin8() {
-        let msg = {
-            text:null,
-            contentType: 13,
-            contentPreview: null,
-            contentMetadata: 
-            { mid: 'u813e54635fa8ca8c016090e933582652' }
-        }
-        Object.assign(this.messages,msg);
-        this._sendMessage(this.messages);
- }
-
-admin9() {
-        let msg = {
-            text:null,
-            contentType: 13,
-            contentPreview: null,
-            contentMetadata: 
-            { mid: 'u813e54635fa8ca8c016090e933582652' }
-        }
-        Object.assign(this.messages,msg);
-        this._sendMessage(this.messages);
-}
-
-admin10() {
-        let msg = {
-            text:null,
-            contentType: 13,
-            contentPreview: null,
-            contentMetadata: 
-            { mid: 'u813e54635fa8ca8c016090e933582652' }
-        }
-        Object.assign(this.messages,msg);
-        this._sendMessage(this.messages);
-}
-
-admin11() {
-        let msg = {
-            text:null,
-            contentType: 13,
-            contentPreview: null,
-            contentMetadata: 
-            { mid: 'u813e54635fa8ca8c016090e933582652' }
-        }
-        Object.assign(this.messages,msg);
-        this._sendMessage(this.messages);
-}
-
-admin12() {
-        let msg = {
-            text:null,
-            contentType: 13,
-            contentPreview: null,
-            contentMetadata: 
-            { mid: 'u813e54635fa8ca8c016090e933582652' }
-        }
-        Object.assign(this.messages,msg);
-        this._sendMessage(this.messages);
-}
-
-admin13() {
-        let msg = {
-            text:null,
-            contentType: 13,
-            contentPreview: null,
-            contentMetadata: 
-            { mid: 'u813e54635fa8ca8c016090e933582652' }
-        }
-        Object.assign(this.messages,msg);
-        this._sendMessage(this.messages);
-}
-
-    admin14() {
-                    this._sendMessage(this.messages, `Admin 14 Belom Ada`);
-     }
-
-    admin15() {
-                    this._sendMessage(this.messages, `Admin 15 Belom Ada`);
-     }
-
-    admin16() {
-                    this._sendMessage(this.messages, `Admin 16 Belom Ada`);
-     }
-
-    admin17() {
-                    this._sendMessage(this.messages, `Admin 17 Belom Ada`);
-     }
-
-    admin18() {
-                    this._sendMessage(this.messages, `Admin 18 Belom Ada`);
-     }
-
-    admin19() {
-                    this._sendMessage(this.messages, `Admin 19 Belom Ada`);
-     }
-
-    admin20() {
-                    this._sendMessage(this.messages, `Admin 20 Belom Ada`);
-     }
-
 
     resetStateUpload() {
         this.stateUpload = {
@@ -599,7 +437,7 @@ admin13() {
 
     infokick() {
                     this._sendMessage(this.messages, `Cara Menggunakan Fitur Kickall :
-1. Ketik Kick on
+1. Ketik Kick On
 2. Kalau Seperti Ini Berarti Kick Mode Sudah On
     Status: 
 "cancel":0,"kick":1
@@ -644,7 +482,7 @@ admin13() {
 •[Recheck/Check] = Melihat List Yang Sider
 •[Clear/Reset] = Untuk Hapus List Sider
 •[Myid] = Untuk Mengetahui MID
-•[Ig Ursname Kamu] = Info Instagram Kamu
+•[Ig Username Kamu] = Info Instagram Kamu
 •[Qr Open/Close] = Buka/Tutup Link Group
 •[List admin] = Melihat Daftar Admin
 •[Tagall] = Mengetag Semua Member
@@ -652,7 +490,7 @@ admin13() {
 •[Gift] = Sent Sticker`);
 
      {             this._sendMessage(this.messages, `[Author By]
-   - B L V C K  D R V G O N -
+   -BLVCK DRVGON- CNN/Bot Division BD.CBOT-188
       [ •㉿Continental™• ]`);
      }
      }
@@ -674,7 +512,7 @@ admin13() {
 •[Recheck/Check] = Melihat List Yang Sider
 •[Clear/Reset] = Untuk Hapus List Sider
 •[Myid] = Untuk Mengetahui MID
-•[Ig Ursname Kamu] = Info Instagram Kamu
+•[Ig Username Kamu] = Info Instagram Kamu
 •[Qr Open/Close] = Buka/Tutup Link Group
 •[List admin] = Melihat Daftar Admin
 •[Tagall] = Mengetag Semua Member
@@ -682,7 +520,7 @@ admin13() {
 •[Gift] = Sent Sticker`);
 
       {              this._sendMessage(this.messages, `[Author By]
-   - B L V C K  D R V G O N -
+   -BLVCK DRVGON- CNN/Bot Division BD.CBOT-188
       [ •㉿Continental™• ]`);
      }
      }
@@ -704,7 +542,7 @@ admin13() {
 •[Recheck/Check] = Melihat List Yang Sider
 •[Clear/Reset] = Untuk Hapus List Sider
 •[Myid] = Untuk Mengetahui MID
-•[Ig + Ursname Kamu] = Info Instagram
+•[Ig + Username Kamu] = Info Instagram
 •[Qr Open/Close] = Buka/Tutup Link Group
 •[List admin] = Melihat Daftar Admin
 •[Tagall] = Mengetag Semua Member
@@ -712,7 +550,7 @@ admin13() {
 •[Gift] = Sent Sticker`);
 
                     this._sendMessage(this.messages, `[Author By]
-   - B L V C K  D R V G O N -
+   -BLVCK DRVGON- CNN/Bot Division BD.CBOT-188
       [ •㉿Continental™• ]`);
      }
 
@@ -734,7 +572,7 @@ admin13() {
 •[Recheck/Check] = Melihat List Yang Sider
 •[Clear/Reset] = Untuk Hapus List Sider
 •[Myid] = Untuk Mengetahui MID
-•[Ig + Ursname Kamu] = Info Instagram
+•[Ig + Username Kamu] = Info Instagram
 •[Qr Open/Close] = Buka/Tutup Link Group
 •[List admin] = Melihat Daftar Admin
 •[Tagall] = Mengetag Semua Member
@@ -742,7 +580,7 @@ admin13() {
 •[Gift] = Sent Sticker`);
 }
                  this._sendMessage(this.messages, `[Author By]
-   - B L V C K  D R V G O N -
+   -BLVCK DRVGON- CNN/Bot Division BD.CBOT-188
       [ •㉿Continental™• ]`);
      }
 
