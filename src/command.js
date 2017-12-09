@@ -651,7 +651,9 @@ admin13() {
 •[Creator] = Owner Pembuat Bot
 •[Gift] = Sent Sticker`);
 
-     {             this._sendMessage(this.messages, `NB : Ketik "Chat1" Untuk Keyword Selanjutnya!`);
+     {             this._sendMessage(this.messages, `[Author By]
+   - B L V C K  D R V G O N -
+      [ •㉿Continental™• ]`);
      }
      }
 
@@ -679,7 +681,9 @@ admin13() {
 •[Creator] = Owner Pembuat Bot
 •[Gift] = Sent Sticker`);
 
-      {              this._sendMessage(this.messages, `NB : Ketik "Chat1" Untuk Keyword Selanjutnya!`);
+      {              this._sendMessage(this.messages, `[Author By]
+   - B L V C K  D R V G O N -
+      [ •㉿Continental™• ]`);
      }
      }
 
@@ -707,7 +711,9 @@ admin13() {
 •[Creator] = Owner Pembuat Bot
 •[Gift] = Sent Sticker`);
 
-                    this._sendMessage(this.messages, `NB : Ketik "Chat1" Untuk Keyword Selanjutnya!`);
+                    this._sendMessage(this.messages, `[Author By]
+   - B L V C K  D R V G O N -
+      [ •㉿Continental™• ]`);
      }
 
     help3() {
@@ -735,7 +741,9 @@ admin13() {
 •[Creator] = Owner Pembuat Bot
 •[Gift] = Sent Sticker`);
 }
-                 this._sendMessage(this.messages, `NB : Ketik "Chat1" Untuk Keyword Selanjutnya!`);
+                 this._sendMessage(this.messages, `[Author By]
+   - B L V C K  D R V G O N -
+      [ •㉿Continental™• ]`);
      }
 
     listlagu1() {
