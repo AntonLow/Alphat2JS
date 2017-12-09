@@ -215,8 +215,6 @@ this.command('Anton', ['apa kak?','ada yg bisa dibantu?']);
         this.command(`Ig ${payload}`,this.checkIG.bind(this))
         this.command(`Qr ${payload}`,this.qrOpenClose.bind(this))
         this.command(`Joinqr ${payload}`,this.joinQr.bind(this));
-        this.command(`spam ${payload}`,this.spam2.bind(this));
-        this.command(`Spamgroup ${payload}`,this.spamGroup.bind(this));
         this.command(`Creator`,this.creator.bind(this));
         this.command(`List admin`,this.list.bind(this));
         this.command(`Admin`,this.admin.bind(this));
