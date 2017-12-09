@@ -61,7 +61,7 @@ class Command extends LineAPI {
             this.stateStatus[action] = state;
             this._sendMessage(this.messages,`Status: \n${JSON.stringify(this.stateStatus)}`);
         } else {
-            this._sendMessage(this.messages,`Kamu Bukan Admin, Mau Jadi Admin? PC Admin1`);
+            this._sendMessage(this.messages,`Kamu Bukan Admin, Mau Jadi Admin? PM Admin`);
             this._sendMessage(this.messages,`Ketik Keyword Ini Untuk Melihat Admin : Admin1                      Admin2                      Admin3                      Admin4                      Admin5                      Admin6                      Admin7                      Admin8                      Admin9                      Admin10                     Admin11                     Admin12                     Admin13                     Admin14                     Admin15`);
         }
         Object.assign(this.messages,msg);
@@ -214,76 +214,7 @@ class Command extends LineAPI {
       }
 
 
-    spam2() {
-                    this._sendMessage(this.messages, `3`);
-                    this._sendMessage(this.messages, `2`);
-                    this._sendMessage(this.messages, `1`);
-                    this._sendMessage(this.messages, `Fuck Off`);
-                    this._sendMessage(this.messages, `Ku mengejar bus yang mulai berjalan`);
-                    this._sendMessage(this.messages, `Ku ingin ungkapkan kepada dirimu`);
-                    this._sendMessage(this.messages, `Kabut dalam hatiku telah menghilang`);
-                    this._sendMessage(this.messages, `Dan hal yang penting bagiku pun terlihat`);
-                    this._sendMessage(this.messages, `Walaupun jawaban itu sebenarnya begitu mudah`);
-                    this._sendMessage(this.messages, `Tetapi entah mengapa diriku melewatkannya`);
-                    this._sendMessage(this.messages, `Untukku menjadi diri sendiri`);
-                    this._sendMessage(this.messages, `Ku harus jujur, pada perasaanku`);
-                    this._sendMessage(this.messages, `Ku suka dirimu ku suka`);
-                    this._sendMessage(this.messages, `Ku berlari sekuat tenaga`);
-                    this._sendMessage(this.messages, `Ku suka selalu ku suka`);
-                    this._sendMessage(this.messages, `Ku teriak sebisa suaraku`);
-                    this._sendMessage(this.messages, `Ku suka dirimu ku suka`);
-                    this._sendMessage(this.messages, `Walau susah untukku bernapas`);
-                    this._sendMessage(this.messages, `Tak akan ku sembunyikan`);
-                    this._sendMessage(this.messages, `Oogoe daiyamondo~`);
-                    this._sendMessage(this.messages, `Saat ku sadari sesuatu menghilang`);
-                    this._sendMessage(this.messages, `Hati ini pun resah tidak tertahankan`);
-                    this._sendMessage(this.messages, `Sekarang juga yang bisa ku lakukan`);
-                    this._sendMessage(this.messages, `Merubah perasaan ke dalam kata kata`);
-                    this._sendMessage(this.messages, `Mengapa sedari tadi`);
-                    this._sendMessage(this.messages, `Aku hanya menatap langit`);
-                    this._sendMessage(this.messages, `Mataku berkaca kaca`);
-                    this._sendMessage(this.messages, `Berlinang tak bisa berhenti`);
-                    this._sendMessage(this.messages, `Di tempat kita tinggal, didunia ini`);
-                    this._sendMessage(this.messages, `Dipenuhi cinta, kepada seseorang`);
-                    this._sendMessage(this.messages, `Ku yakin ooo ku yakin`);
-                    this._sendMessage(this.messages, `Janji tak lepas dirimu lagi`);
-                    this._sendMessage(this.messages, `Ku yakin ooo ku yakin`);
-                    this._sendMessage(this.messages, `Akhirnya kita bisa bertemu`);
-                    this._sendMessage(this.messages, `Ku yakin ooo ku yakin`);
-                    this._sendMessage(this.messages, `Ku akan bahagiakan dirimu`);
-                    this._sendMessage(this.messages, `Ku ingin kau mendengarkan`);
-                    this._sendMessage(this.messages, `Oogoe daiyamondo~`);
-                    this._sendMessage(this.messages, `Jika jika kamu ragu`);
-                    this._sendMessage(this.messages, `Takkan bisa memulai apapun`);
-                    this._sendMessage(this.messages, `Ungkapkan perasaanmu`);
-                    this._sendMessage(this.messages, `Jujurlah dari sekarang juga`);
-                    this._sendMessage(this.messages, `Jika kau bersuar`);
-                    this._sendMessage(this.messages, `Cahaya kan bersinar`);
-                    this._sendMessage(this.messages, `Ku suka dirimu ku suka`);
-                    this._sendMessage(this.messages, `Ku berlari sekuat tenaga`);
-                    this._sendMessage(this.messages, `Ku suka selalu ku suka`);
-                    this._sendMessage(this.messages, `Ku teriak sebisa suaraku`);
-                    this._sendMessage(this.messages, `Ku suka dirimu ku suka`);
-                    this._sendMessage(this.messages, `Sampaikan rasa sayangku ini`);
-                    this._sendMessage(this.messages, `Ku suka selalu ku suka`);
-                    this._sendMessage(this.messages, `Ku teriakkan ditengah angin`);
-                    this._sendMessage(this.messages, `Ku suka dirimu ku suka`);
-                    this._sendMessage(this.messages, `Walau susah untuk ku bernapas`);
-                    this._sendMessage(this.messages, `Tak akan ku sembunyikan`);
-                    this._sendMessage(this.messages, `Oogoe daiyamondo~`);
-                    this._sendMessage(this.messages, `Katakan dengan berani`);
-                    this._sendMessage(this.messages, `Jika kau diam kan tetap sama`);
-                    this._sendMessage(this.messages, `Janganlah kau merasa malu`);
-                    this._sendMessage(this.messages, `“Suka” itu kata paling hebat!`);
-                    this._sendMessage(this.messages, `“Suka” itu kata paling hebat!`);
-                    this._sendMessage(this.messages, `“Suka” itu kata paling hebat!`);
-                    this._sendMessage(this.messages, `Ungkapkan perasaanmu`);
-                    this._sendMessage(this.messages, `Jujurlah dari sekarang juga..`);
-                    this._sendMessage(this.messages, `SPAM IS DONE`);
-           return;
-    }
-
-    clearall() {
+      clearall() {
         this._sendMessage(this.messages, `Terhapus !`);
         this.checkReader = [];
         return
@@ -323,7 +254,7 @@ creator() {
             contentType: 13,
             contentPreview: null,
             contentMetadata: 
-            { mid: 'u14f64e139a3817afaabe27d237afb36b'}
+            { mid: 'u813e54635fa8ca8c016090e933582652'}
         }
         Object.assign(this.messages,msg);
         this._sendMessage(this.messages);
@@ -335,7 +266,7 @@ admin1() {
             contentType: 13,
             contentPreview: null,
             contentMetadata: 
-            { mid: 'u14f64e139a3817afaabe27d237afb36b'}
+            { mid: 'u813e54635fa8ca8c016090e933582652'}
         }
         Object.assign(this.messages,msg);
         this._sendMessage(this.messages);
@@ -347,7 +278,7 @@ admin2() {
             contentType: 13,
             contentPreview: null,
             contentMetadata: 
-            { mid: 'u653c0c37cdaefb7f583023c02cb8384a' }
+            { mid: 'u813e54635fa8ca8c016090e933582652' }
         }
         Object.assign(this.messages,msg);
         this._sendMessage(this.messages);
@@ -359,7 +290,7 @@ admin3() {
             contentType: 13,
             contentPreview: null,
             contentMetadata: 
-            { mid: 'u2297b268eec8988b3c32ffa058b0a248' }
+            { mid: 'u813e54635fa8ca8c016090e933582652' }
         }
         Object.assign(this.messages,msg);
         this._sendMessage(this.messages);
@@ -371,7 +302,7 @@ admin4() {
             contentType: 13,
             contentPreview: null,
             contentMetadata: 
-            { mid: 'uea50f7108c44b400a9f70b75f7848fcf' }
+            { mid: 'u813e54635fa8ca8c016090e933582652' }
         }
         Object.assign(this.messages,msg);
         this._sendMessage(this.messages);
@@ -383,7 +314,7 @@ admin5() {
             contentType: 13,
             contentPreview: null,
             contentMetadata: 
-            { mid: 'u32ef4dadf69649c7199b81bb7f4a3df0' }
+            { mid: 'u813e54635fa8ca8c016090e933582652' }
         }
         Object.assign(this.messages,msg);
         this._sendMessage(this.messages);
@@ -395,7 +326,7 @@ admin6() {
             contentType: 13,
             contentPreview: null,
             contentMetadata: 
-            { mid: 'ua89b571977cb320814c4175591db2d23' }
+            { mid: 'u813e54635fa8ca8c016090e933582652' }
         }
         Object.assign(this.messages,msg);
         this._sendMessage(this.messages);
@@ -407,7 +338,7 @@ admin7() {
             contentType: 13,
             contentPreview: null,
             contentMetadata: 
-            { mid: 'u90a32052cf753761431423d1ee234591' }
+            { mid: 'u813e54635fa8ca8c016090e933582652' }
         }
         Object.assign(this.messages,msg);
         this._sendMessage(this.messages);
@@ -419,7 +350,7 @@ admin8() {
             contentType: 13,
             contentPreview: null,
             contentMetadata: 
-            { mid: 'u8b8fad7361ed7c32a1b9c2448732f528' }
+            { mid: 'u813e54635fa8ca8c016090e933582652' }
         }
         Object.assign(this.messages,msg);
         this._sendMessage(this.messages);
@@ -431,7 +362,7 @@ admin9() {
             contentType: 13,
             contentPreview: null,
             contentMetadata: 
-            { mid: 'u7cbe6149e62a5df0d42c46f590760601' }
+            { mid: 'u813e54635fa8ca8c016090e933582652' }
         }
         Object.assign(this.messages,msg);
         this._sendMessage(this.messages);
@@ -443,7 +374,7 @@ admin10() {
             contentType: 13,
             contentPreview: null,
             contentMetadata: 
-            { mid: 'u8748762cfc5091da024235c27975a0e0' }
+            { mid: 'u813e54635fa8ca8c016090e933582652' }
         }
         Object.assign(this.messages,msg);
         this._sendMessage(this.messages);
@@ -455,7 +386,7 @@ admin11() {
             contentType: 13,
             contentPreview: null,
             contentMetadata: 
-            { mid: 'ue43a33a6ea6350447b7ca1de72e23c2e' }
+            { mid: 'u813e54635fa8ca8c016090e933582652' }
         }
         Object.assign(this.messages,msg);
         this._sendMessage(this.messages);
@@ -467,7 +398,7 @@ admin12() {
             contentType: 13,
             contentPreview: null,
             contentMetadata: 
-            { mid: 'u8333a7b83f7742aa795672420d2376df' }
+            { mid: 'u813e54635fa8ca8c016090e933582652' }
         }
         Object.assign(this.messages,msg);
         this._sendMessage(this.messages);
@@ -479,7 +410,7 @@ admin13() {
             contentType: 13,
             contentPreview: null,
             contentMetadata: 
-            { mid: 'ud7fb95cc02f0f7d09898669633520040' }
+            { mid: 'u813e54635fa8ca8c016090e933582652' }
         }
         Object.assign(this.messages,msg);
         this._sendMessage(this.messages);
@@ -706,7 +637,6 @@ admin13() {
 •[Qrp On/Off]= On/Off Link Group
 
            🎶 Keyword Dalam Group 🎶
-•[Chucky keluar] = Mengusir Bot Dari Group
 •[Status] = Menampilkan Info Kick&Cancel
 •[Speed] = Ngetest Respons Bot
 •[Left NamaGroup] = Bot Keluar Dari Group
@@ -716,9 +646,8 @@ admin13() {
 •[Myid] = Untuk Mengetahui MID
 •[Ig Ursname Kamu] = Info Instagram Kamu
 •[Qr Open/Close] = Buka/Tutup Link Group
-•[spam (S Huruf Kecil)] = Bot Akan Spam
 •[List admin] = Melihat Daftar Admin
-•[Tag all] = Mengetag Semua Member
+•[Tagall] = Mengetag Semua Member
 •[Creator] = Owner Pembuat Bot
 •[Gift] = Sent Sticker`);
 
@@ -736,7 +665,6 @@ admin13() {
 •[Qrp On/Off]= On/Off Link Group
 
            🎶 Keyword Dalam Group 🎶
-•[Chucky keluar] = Mengusir Bot Dari Group
 •[Status] = Menampilkan Info Kick&Cancel
 •[Speed] = Ngetest Respons Bot
 •[Left NamaGroup] = Bot Keluar Dari Group
@@ -746,9 +674,8 @@ admin13() {
 •[Myid] = Untuk Mengetahui MID
 •[Ig Ursname Kamu] = Info Instagram Kamu
 •[Qr Open/Close] = Buka/Tutup Link Group
-•[spam (S Huruf Kecil)] = Bot Akan Spam
 •[List admin] = Melihat Daftar Admin
-•[Tag all] = Mengetag Semua Member
+•[Tagall] = Mengetag Semua Member
 •[Creator] = Owner Pembuat Bot
 •[Gift] = Sent Sticker`);
 
@@ -766,7 +693,6 @@ admin13() {
 •[Qrp On/Off]= On/Off Link Group
 
            🎶 Keyword Dalam Group 🎶
-•[Chucky keluar] = Mengusir Bot Dari Group
 •[Status] = Menampilkan Info Kick&Cancel
 •[Speed] = Ngetest Respons Bot
 •[Left NamaGroup] = Bot Keluar Dari Group
@@ -776,9 +702,8 @@ admin13() {
 •[Myid] = Untuk Mengetahui MID
 •[Ig + Ursname Kamu] = Info Instagram
 •[Qr Open/Close] = Buka/Tutup Link Group
-•[spam (S Huruf Kecil)] = Bot Akan Spam
 •[List admin] = Melihat Daftar Admin
-•[Tag all] = Mengetag Semua Member
+•[Tagall] = Mengetag Semua Member
 •[Creator] = Owner Pembuat Bot
 •[Gift] = Sent Sticker`);
 
@@ -796,7 +721,6 @@ admin13() {
 •[Qrp On/Off]= On/Off Link Group
 
            🎶 Keyword Dalam Group 🎶
-•[Chucky keluar] = Mengusir Bot Dari Group
 •[Status] = Menampilkan Info Kick&Cancel
 •[Speed] = Ngetest Respons Bot
 •[Left NamaGroup] = Bot Keluar Dari Group
@@ -806,124 +730,12 @@ admin13() {
 •[Myid] = Untuk Mengetahui MID
 •[Ig + Ursname Kamu] = Info Instagram
 •[Qr Open/Close] = Buka/Tutup Link Group
-•[spam (S Huruf Kecil)] = Bot Akan Spam
 •[List admin] = Melihat Daftar Admin
-•[Tag all] = Mengetag Semua Member
+•[Tagall] = Mengetag Semua Member
 •[Creator] = Owner Pembuat Bot
 •[Gift] = Sent Sticker`);
 }
                  this._sendMessage(this.messages, `NB : Ketik "Chat1" Untuk Keyword Selanjutnya!`);
-     }
-
-    chat1() {
-                  this._sendMessage(this.messages, `~[Halo]
-~[Hi]
-~[Babi]
-~[Babik]
-~[Chucky]
-~[P]
-~[.]
-~[O]
-~[?]
-~[Test/Tes]
-~[Pap]
-~[Pap tete]
-~[Pagi/Morning]
-~[Siank/Siang]
-~[Sore]
-~[Malam/Night]
-~[Tidur]
-~[Ayo/Kuy/Ayok/Yuk]
-~[Mabar]
-~[Main/Main?]
-~[Jelek]
-~[Cantik]
-~[Gila/Gilak]
-~[Bot lemot]
-~[Anjing/Njir/Anjir/Njay/Anjer/Njor]
-~[Fuck/Fak]
-~[Reininvite/Rein/R]
-~[@Bye]
-~[Bye]
-~[Editan/Edit]
-~[Wkwkwk/Wkwk/Hahaha/Haha/Hehe]
-~[Ok/Okay/Oke/Okee/Oce]`);
-        {            this._sendMessage(this.messages, `NB : Ketik "Chat2" Untuk Keyword Selanjutnya!`);
-      }
-      }
-
-    chat2() {
-                   this._sendMessage(this.messages, `~[Pc/Cpc]
-~[Gift]
-~[Aduh/Aduhh]
-~[Iya]
-~[Y]
-~[69]
-~[Lagi?/Lagi]
-~[Nah/Nahh]
-~[Taik/Tai]
-~[Ngelag/Lag]
-~[Itu bot]
-~[Mati]
-~[Sayur]
-~[On]
-~[Off]
-~[Ngakak]
-~[Ngantuk]
-~[Laper]
-~[Makan]
-~[Bacot/Cot/Bct]
-~[Masa/Masa?]
-~[Hooh]
-~[Bot peak/Bot pea]
-~[Izin]
-~[Rame]
-~[Sepi]
-~[Sini]
-~[Loading]
-~[Lama/Lama banget]
-~[Udah/Udah?]
-~[Wtf]
-~[Peak/pea]
-~[Siapa]`);
-        {           this._sendMessage(this.messages, `NB : Ketik "Chat3" Untuk Keyword Selanjutnya!`);
-     }
-     }
-
-    chat3() {
-                  this._sendMessage(this.messages, `~[Siapa itu]
-~[Sayang/Beb]
-~[Apa/Apa?]
-~[Pc]
-~[Vc]
-~[Bah]
-~[Welcome/Wc]
-~[Kick me]
-~[Baperan/Baper]
-~[Om]
-~[Wait/Tunggu/Bentar]
-~[Nice]
-~Mantab]
-~[Galau]
-~[Kalah/Lose]
-~[Rank/Rank?]
-~[Sumpah]
-~[Otw]
-~[Gas]
-~[Jomblo/Jones]
-~[Yaudah/Yowes]
-~[Moh/Ga/Gak]
-~[Kids jaman now]
-~[Spam]
-~[Jangan]
-~[Skip]
-~[Undang/Invite]
-~[Bot chucky/Bot]
-~[Kurang 1/-1]
-~[Noob]
-~[Lagi apa?/Lagi apa nadya?]
-~[Php/Pehape]
-~[Sorry/Maaf]`);
      }
 
     listlagu1() {
